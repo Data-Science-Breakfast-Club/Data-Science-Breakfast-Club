@@ -43,7 +43,7 @@
 	<script src="../dist/leaflet.js"></script>
 	<script>
 
-		var map = L.map('map').setView([51.524622, -0.135683], 13);
+		var map = L.map('map').setView([51.52401, -0.13511], 13);
 
 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 18,
@@ -54,7 +54,7 @@
 		}).addTo(map);
 
 
-		L.marker([51.524622, -0.135683]).addTo(map)
+		L.marker([51.52401, -0.13511]).addTo(map)
 			.bindPopup("<b>Data Science Breakfast Club</b><br />We meet at the UCL Cruciform Building, on Tuesdays at 8.30am.").openPopup();
 
 		var popup = L.popup();
