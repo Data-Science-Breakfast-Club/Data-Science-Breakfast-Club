@@ -28,6 +28,27 @@
           <li><a href="https://github.com/datascibc/website/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/datascibc/website">View On <strong>GitHub</strong></a></li>
         </ul>
+        
+        <!-- Begin MailChimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+	<div id="mc_embed_signup">
+	<form action="//github.us9.list-manage.com/subscribe/post?u=a1602a3d444e0fdc20ae6a64a&amp;id=f774432d3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    	<div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our mailing list</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    	<div style="position: absolute; left: -5000px;"><input type="text" name="b_a1602a3d444e0fdc20ae6a64a_f774432d3b" tabindex="-1" value=""></div>
+    	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    	</div>
+	</form>
+	</div>
+	<!--End mc_embed_signup-->
+
       </header>
       <section>
         <p><img src="https://gallery.mailchimp.com/a1602a3d444e0fdc20ae6a64a/images/7f9d4aff-89db-494d-85ca-dadaf7d0286e.png" alt="Data Science Breakfast Club Logo" title="Data Science Breakfast Club"></p>
@@ -38,12 +59,12 @@
 <p>This is the Data Science Breakfast Club's temporary website.</p>
 
 <p>To join our mailing list and to see details of our previous meetings <a href="http://us9.campaign-archive1.com/home/?u=a1602a3d444e0fdc20ae6a64a&amp;id=f774432d3b">click here</a>.</p>
- <div id="map" style="width: 600px; height: 400px"></div>
+ <div id="map" style="height: 400px"></div>
 
 	<script src="../dist/leaflet.js"></script>
 	<script>
 
-		var map = L.map('map').setView([51.52401, -0.13511], 13);
+		var map = L.map('map').setView([51.52401, -0.13511], 15);
 
 		L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
 			maxZoom: 18,
